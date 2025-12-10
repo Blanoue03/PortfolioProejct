@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>title</title>
+    <link rel="stylesheet" href="/index.css">
+    <!-- <script type="module" src="index.js" async></script> -->
+</head>
+<body>
+    
+
+<header>
+    <figure>
+        <img id="title" src="/assets/title.png" >
+        <figcaption>Still a work in Progress!</figcaption>
+    </figure>
+</header>
+<main>
+   
+    <section>
+        <h1>Assignment 1A - wonders.php</h1>
+        <div >
+            <p onclick="goto('wonders.php')">Go</p>
+        </div>
+    </section>
+    <section>
+        <h1>Assignment 1B - Colours.php</h1>
+        <div >
+            <p onclick="goto('colours.html')">Go</p>
+        </div>
+    </section>
+
+<div >
+    <p onclick="goto('../PHP.html')">Back</p>
+</div>
+
+</main>
+
+<script>
+    function goto(path)
+    {
+        window.location = path
+    }
+    
+    let sections = document.querySelectorAll("section")
+    
+    let aboutme = document.getElementById("aboutme")
+
+    console.log(aboutme);
+    
+    aboutme.addEventListener("click", () =>{
+        if (sections[0].getAttribute("visibility") == "hidden")
+    {
+        console.log(sections[0].getAttribute("visibility"));
+        
+    }
+        sections[0].setAttribute("visibility","visable")
+        sections[1].setAttribute("visibility","visable")
+    })
+</script>
+
+</body>
+</html>

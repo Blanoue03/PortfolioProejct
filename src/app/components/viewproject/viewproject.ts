@@ -11,7 +11,7 @@ import {DomSanitizer, SafeResourceUrl} from '@angular/platform-browser';
 })
 export class Viewproject implements OnInit{
 
-  subpath = "/projects";
+  subpath = " /PortfolioProject/browser/projects";
   path! : SafeResourceUrl
 
   constructor(private route: ActivatedRoute, private router: Router, private sanitizer: DomSanitizer) {

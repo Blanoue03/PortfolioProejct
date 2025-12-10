@@ -1,0 +1,82 @@
+/* CSS Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background: linear-gradient(to bottom, #1a1a2e, #16213e);
+    color: white;
+    text-align: center;
+}
+
+/* Header */
+header {
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+/* Sections */
+section {
+    margin: 20px auto;
+    padding: 20px;
+    width: 80%;
+    max-width: 900px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+}
+
+/* Lists */
+ul {
+    list-style-type: none;
+    padding: 10px;
+}
+
+ul li {
+    padding: 8px;
+    font-weight: bold;
+}
+ul > li:nth-child(1)
+{
+    color:red
+}
+ul > li:nth-child(2)
+{
+    color:blue
+}
+ul > li:nth-child(3)
+{
+    color:green
+}
+ul > li:nth-child(4)
+{
+    color:orange
+}
+ul > li:nth-child(5)
+{
+    color:purple
+}
+
+/* Images */
+img {
+    width: 100%;
+    max-width: 400px;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+}
+
+img:hover {
+    transform: scale(1.05);
+}
+
+
+/* Footer */
+footer {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.7);
+}

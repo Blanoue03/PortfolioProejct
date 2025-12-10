@@ -1,0 +1,137 @@
+{
+  "configVersion": 1,
+  "timestamp": 1765396443644,
+  "index": "./index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "./favicon.ico",
+        "./index.html",
+        "./main-TUI6NFBE.js",
+        "./manifest.webmanifest",
+        "./styles-JZI6QPP5.css"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "./book.png",
+        "./dirt.png",
+        "./icons/icon-128x128.png",
+        "./icons/icon-144x144.png",
+        "./icons/icon-152x152.png",
+        "./icons/icon-192x192.png",
+        "./icons/icon-384x384.png",
+        "./icons/icon-512x512.png",
+        "./icons/icon-72x72.png",
+        "./icons/icon-96x96.png",
+        "./inventory (2).png",
+        "./inventory.png",
+        "./me.jpg",
+        "./media/dirt-X6LWCNLZ.png",
+        "./media/oakplank-QXGITUFG.png",
+        "./media/stonebrick-3OQT3FLC.png",
+        "./oakplank.png",
+        "./projects/CSS/csgo.jpg",
+        "./projects/CSS/dota.jpg",
+        "./projects/CSS/league.jpg",
+        "./projects/CSS/me.jpg",
+        "./projects/PHP/Week1/niagarafalls.jpg",
+        "./projects/PHP/Week1/northernlights.jpg",
+        "./projects/PHP/Week1/rockies.jpg",
+        "./projects/PHP/Week2/earth.gif",
+        "./projects/PHP/Week2/jupiter.gif",
+        "./projects/PHP/Week2/mars.gif",
+        "./projects/PHP/Week2/mercury.gif",
+        "./projects/PHP/Week2/neptune.gif",
+        "./projects/PHP/Week2/pluto.gif",
+        "./projects/PHP/Week2/saturn.gif",
+        "./projects/PHP/Week2/stars.gif",
+        "./projects/PHP/Week2/sun.gif",
+        "./projects/PHP/Week2/uranus.gif",
+        "./projects/PHP/Week2/venus.gif",
+        "./stonebrick.png",
+        "./title.png",
+        "./writable_book.png"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [],
+  "hashTable": {
+    "./book.png": "bad562661e6269659198d4d97ca0887646dcb3fd",
+    "./dirt.png": "067f00df1ba388e540b01b6ec9957dff08346868",
+    "./favicon.ico": "9c39f434fe1261f68c5e3eefdf734630d99c5670",
+    "./icons/icon-128x128.png": "f912963bdc6d5a38d8f1dd0afbaab2ce8d657acb",
+    "./icons/icon-144x144.png": "b155fd5f2fd5d2ea7760721063003c4cd95fd783",
+    "./icons/icon-152x152.png": "eae6e0f0c8afb8aaae339e2a569b43e9238e5e6c",
+    "./icons/icon-192x192.png": "15c4180454633880d98674aa7394656196c91584",
+    "./icons/icon-384x384.png": "94a915751ef6c9282df9aea405ad679230631814",
+    "./icons/icon-512x512.png": "1de182f76f7329dfa8f9fcdd1fdcdd695bea6a99",
+    "./icons/icon-72x72.png": "aa88a6096bd973be7f6d7a5489bfa6bc2463f8c4",
+    "./icons/icon-96x96.png": "7fb8f59c30ce2ff12c700321a0b39e14b3dc8f95",
+    "./index.html": "1c7962a40057e6b07ca0d4935609d2431c47a18c",
+    "./inventory (2).png": "9a7ffebec27d92566ee4709c4b8ed7fd7f9e72fd",
+    "./inventory.png": "08a5ab6fb1805f22c0a99694e566dd948599f359",
+    "./main-TUI6NFBE.js": "d694058171f3ae030bac58d010fee309fb220cb6",
+    "./manifest.webmanifest": "95f0688c66eb0db771a3662e725e11aa24d4816b",
+    "./me.jpg": "54867bddcde2c30c23849a367af701dad4043dc2",
+    "./media/dirt-X6LWCNLZ.png": "067f00df1ba388e540b01b6ec9957dff08346868",
+    "./media/oakplank-QXGITUFG.png": "59e6e87b06f985b9d1c38fd67f67c0d6ea63d96f",
+    "./media/stonebrick-3OQT3FLC.png": "d7b843071f120797c1c1118a9d83a984af08eda3",
+    "./oakplank.png": "59e6e87b06f985b9d1c38fd67f67c0d6ea63d96f",
+    "./projects/CSS/csgo.jpg": "aa97a281062c26e68163ad6abe213e72717ee39d",
+    "./projects/CSS/dota.jpg": "d20ecdc24cb719aba0ed6fcd4c19c6da2673f510",
+    "./projects/CSS/league.jpg": "f79fe21c2305946b0e530d9027d8af8f77e98b26",
+    "./projects/CSS/me.jpg": "54867bddcde2c30c23849a367af701dad4043dc2",
+    "./projects/PHP/Week1/niagarafalls.jpg": "63c64eaae710408fc64e85d69034de2f4f3c446b",
+    "./projects/PHP/Week1/northernlights.jpg": "897c94670b7aa074c647da38c5e65d5dd70e304a",
+    "./projects/PHP/Week1/rockies.jpg": "6daa0f1db1a39d56e3d92a4933e6cf1bec50fc62",
+    "./projects/PHP/Week2/earth.gif": "97731ed6478831f1f1243090e85411b797aca252",
+    "./projects/PHP/Week2/jupiter.gif": "56e0fe63e5f26a821c3afe09a5cf3d4bfd0a45f8",
+    "./projects/PHP/Week2/mars.gif": "d6b592cf29275d1b12929e7c764e8feb38e98bab",
+    "./projects/PHP/Week2/mercury.gif": "904241358fa7d40c4f83e28d74e777615dea2242",
+    "./projects/PHP/Week2/neptune.gif": "c4c45b05173e74cd695f6ba0c6754c9b79dfe0ca",
+    "./projects/PHP/Week2/pluto.gif": "94b4274de95e67bd804888603fd3133be129c6f0",
+    "./projects/PHP/Week2/saturn.gif": "e075a546bb05387dca09cd71cdf3a597ba1d63bd",
+    "./projects/PHP/Week2/stars.gif": "c398c5797edc0409833d6c2b32f18234d9b71ec1",
+    "./projects/PHP/Week2/sun.gif": "3150ac1e8aac82960c4e26a689b24a399ffdcb3b",
+    "./projects/PHP/Week2/uranus.gif": "2c0a57c665ce4bff14e714a9cb7f90c7c0c24d24",
+    "./projects/PHP/Week2/venus.gif": "a2124d4d052e800e34fbb3c339a9fbdc3d3cdf82",
+    "./stonebrick.png": "d7b843071f120797c1c1118a9d83a984af08eda3",
+    "./styles-JZI6QPP5.css": "43eea332a241eace1a324ce9bcafaf59da68b4d6",
+    "./title.png": "c784dd87df02293efa0bd293449dfe19bf4bb343",
+    "./writable_book.png": "683356357eb05e38d06cfea0371221e215fa26ea"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ],
+  "navigationRequestStrategy": "performance"
+}

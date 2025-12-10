@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>title</title>
+    <link rel="stylesheet" href="/index.css">
+    <!-- <script type="module" src="index.js" async></script> -->
+</head>
+<body>
+    
+
+<header>
+    <figure>
+        <img id="title" src="/assets/title.png" >
+        <figcaption>Still a work in Progress!</figcaption>
+    </figure>
+</header>
+<main>
+   
+    <section>
+        <h1>Assignment 4</h1>
+        <p>Create a web page that contains information from your favourite sport OR sports team OR player. The topic MUST be school appropriate. Gather or create content for this page. The content should be sufficient to fill the screen. If the content is not your own - be sure to properly reference it.</p>
+        <div >
+            <p onclick="goto('Assignment4.html')">Go</p>
+        </div>
+    </section>
+    <section>
+        <h1>Assignment 5</h1>
+        <p>On Blackboard, you will find a text file that includes 7 different text options. Choose one of the options and apply the following to it. Using only the content create a valid HTML web page. Style the page in a manner that is appropriate to the text you selected. Choose fonts that supplement the style. Apply each of the font and text properties to paragraphs or headings in your document. Use both positive and negative values where appropriate.</p>
+        <div >
+            <p onclick="goto('assignment5.html')">Go</p>
+        </div>
+    </section>
+    <section>
+        <h1>Assignment 8</h1>
+        <p>Create an HTML5 web form for an online course for our school, IT Course College.  Please note – the form DOES NOT HAVE TO SUBMIT – but the appropriate code is required to be present (action/method) for it to work. </p>
+        <div >
+            <p onclick="goto('assignment8.html')">Go</p>
+        </div>
+
+    </section>
+    <section>
+        <h1>Assignment 9</h1>
+        <p>Create a web page about you. The web page will be a three-column layout that changes into a two-column layout and then into a single-column layout at appropriate breakpoints. The left column will contain a picture of you. The center column will display a few paragraphs about you – let me know a little about your history and a little about why you took this program and what you hope to do in the future (career). The third column will be two lists – your top 5 favourite hobbies, and your top 5 favourite sources of entertainment (tv shows, movies, books, video games, etc.) </p>
+        <div >
+            <p onclick="goto('Assignment9.html')">Back</p>
+        </div>
+
+    </section>
+<div >
+    <p onclick="goto('/Projects/projects.html')">Back</p>
+</div>
+
+</main>
+
+<script>
+    function goto(path)
+    {
+        window.location = path
+    }
+    
+    let sections = document.querySelectorAll("section")
+    
+    let aboutme = document.getElementById("aboutme")
+
+    console.log(aboutme);
+    
+    aboutme.addEventListener("click", () =>{
+        if (sections[0].getAttribute("visibility") == "hidden")
+    {
+        console.log(sections[0].getAttribute("visibility"));
+        
+    }
+        sections[0].setAttribute("visibility","visable")
+        sections[1].setAttribute("visibility","visable")
+    })
+</script>
+
+</body>
+</html>
