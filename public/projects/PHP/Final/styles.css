@@ -1,0 +1,78 @@
+form[action="inserttable.php"] {
+    float: left;
+    width: 300px;
+    padding: 20px;
+    background-color: #e6f5ff;
+    border: 1px solid #999;
+    border-radius: 5px;
+    font-family: Arial, sans-serif;
+}
+form[action="updatetable.php"] {
+    float: right;
+    width: 300px;
+    padding: 20px;
+    background-color: #e6f5ff;
+    border: 1px solid #999;
+    border-radius: 5px;
+    font-family: Arial, sans-serif;
+}
+fieldset {
+    border: none;
+    padding: 0;
+}
+
+legend {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="date"],
+input[type="number"] {
+    width: 100%;
+    padding: 5px;
+    margin: 5px 0 15px 0;
+    box-sizing: border-box;
+}
+
+input[type="submit"] {
+    background-color: #fff;
+    color: #c00;
+    border: 1px solid #c00;
+    padding: 5px 10px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+input[type="submit"]:hover {
+    background-color: #c00;
+    color: #fff;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    font-family: Arial, sans-serif;
+    background-color: #f0faff;
+}
+
+th, td {
+    border: 1px solid #999;
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #d6ecff; 
+    font-weight: bold;
+}
+
+tr:nth-child(even) {
+    background-color: #e9f5ff;
+}
+
+tr:hover {
+    background-color: #cfe9ff;
+}
