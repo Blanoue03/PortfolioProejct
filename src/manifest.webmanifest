@@ -1,0 +1,10 @@
+{
+  "name": "Portfolio Project",
+  "short_name": "PP",
+  "description": "A PWA displaying the portfolio i created",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#00796b",
+
+}
